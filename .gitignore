@@ -1,0 +1,20 @@
+# ---- 编辑器本地配置（含本机绝对路径，不进版本库）----
+.vscode/
+
+# ---- Keil 编译产物（如果以后加入工程文件）----
+Objects/
+Listings/
+DebugConfig/
+*.uvguix.*
+*.bak
+*.dep
+*.scvd
+*.htm
+*.lnp
+*.map
+
+# ---- Python / 系统杂项 ----
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
